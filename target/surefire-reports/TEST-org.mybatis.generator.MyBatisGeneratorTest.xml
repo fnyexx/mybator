@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.125" errors="0" skipped="0" tests="2" name="org.mybatis.generator.MyBatisGeneratorTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.6.0_25\jre\bin"/>
+    <property name="java.vm.version" value="0.2-b02-internal, 19.0-b04-internal"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Dynamic Code Evolution 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\workspaces\inidgo\mybatis-generator-core"/>
+    <property name="java.runtime.version" value="1.6.0_25-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="F:\workspaces\inidgo\mybatis-generator-core"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.6.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="F:\workspaces\inidgo\mybatis-generator-core\target\surefire\surefirebooter8687830079344938714.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\xin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.6.0_25\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\Java\jdk1.6.0_25\jre\bin;D:/Program Files/Java/jdk1.6.0_25/bin/../jre/bin/server;D:/Program Files/Java/jdk1.6.0_25/bin/../jre/bin;D:/Program Files/Java/jdk1.6.0_25/bin/../jre/lib/amd64;D:\apache\apache-maven-3.0.3\bin;D:\Program Files\Java\jdk1.6.0_25\bin;D:\oracle\product\10.2.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;C:\SWTOOLS\ReadyApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\VanDyke Software\Clients\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\ide\eclipse-j2ee-indigo;"/>
+    <property name="surefire.test.class.path" value="F:\workspaces\inidgo\mybatis-generator-core\target\test-classes;F:\workspaces\inidgo\mybatis-generator-core\target\classes;E:\maven\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;E:\maven\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;E:\maven\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;E:\maven\repository\junit\junit\4.8.2\junit-4.8.2.jar;E:\maven\repository\org\hsqldb\hsqldb\2.2.4\hsqldb-2.2.4.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\xin"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="xin"/>
+    <property name="java.class.path" value="F:\workspaces\inidgo\mybatis-generator-core\target\test-classes;F:\workspaces\inidgo\mybatis-generator-core\target\classes;E:\maven\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;E:\maven\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;E:\maven\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;E:\maven\repository\junit\junit\4.8.2\junit-4.8.2.jar;E:\maven\repository\org\hsqldb\hsqldb\2.2.4\hsqldb-2.2.4.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.6.0_25\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_25"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.6.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.6.0_25\jre\lib\resources.jar;D:\Program Files\Java\jdk1.6.0_25\jre\lib\rt.jar;D:\Program Files\Java\jdk1.6.0_25\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.6.0_25\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.6.0_25\jre\lib\jce.jar;D:\Program Files\Java\jdk1.6.0_25\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.6.0_25\jre\lib\modules\jdk.boot.jar;D:\Program Files\Java\jdk1.6.0_25\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="E:\maven\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.11" classname="org.mybatis.generator.MyBatisGeneratorTest" name="testGenerateMyBatis3"/>
+  <testcase time="0.015" classname="org.mybatis.generator.MyBatisGeneratorTest" name="testGenerateIbatis2"/>
+</testsuite>
